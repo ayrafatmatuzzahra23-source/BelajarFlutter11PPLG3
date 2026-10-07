@@ -25,7 +25,7 @@ class MyTextfield extends StatelessWidget {
       controller: txtController,
       keyboardType: keyboardType,
       //inputFormatters: [FilteringTextInputFormatter.digitsOnly],
-      style: const TextStyle(color: Color.fromARGB(255, 251, 250, 250)),
+      style: const TextStyle(color: Color.fromARGB(255, 30, 30, 30)),
       decoration: InputDecoration(
         hintText: myHint,
         hintStyle: const TextStyle(

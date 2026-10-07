@@ -32,23 +32,23 @@ class ConfirmRegistrationPage extends StatelessWidget {
           children: [
             Text(
               "Nama " + controller.nama.toString(),
-              style: TextStyle(fontSize: 20, color: Colors.green),
+              style: TextStyle(fontSize: 20, color: const Color.fromARGB(255, 20, 21, 20)),
             ),
             Text(
               "Alamat " + controller.alamat.toString(),
-              style: TextStyle(fontSize: 20, color: Colors.green),
+              style: TextStyle(fontSize: 20, color: const Color.fromARGB(255, 20, 21, 20)),
             ),
             Text(
               "Jenis Kelamin " + controller.jeniskelamin.toString(),
-              style: TextStyle(fontSize: 20, color: Colors.green),
+              style: TextStyle(fontSize: 20, color: const Color.fromARGB(255, 20, 21, 20)),
             ),
             Text(
               "No WA " + controller.noWA.toString(),
-              style: TextStyle(fontSize: 20, color: Colors.green),
+              style: TextStyle(fontSize: 20, color: const Color.fromARGB(255, 20, 21, 20)),
             ),
             Text(
               "Email " + controller.email.toString(),
-              style: TextStyle(fontSize: 20, color: Colors.green),
+              style: TextStyle(fontSize: 20, color: const Color.fromARGB(255, 20, 21, 20)),
             ),
             // others data jenis kelamin, alamat dll
             ElevatedButton(
