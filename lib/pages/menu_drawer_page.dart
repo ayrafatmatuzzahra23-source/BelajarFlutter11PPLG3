@@ -16,7 +16,7 @@ class MenuDrawer extends StatelessWidget {
   Widget build(BuildContext context) {
     return Obx(
       () => Scaffold(
-        appBar: AppBar(title: const Text('Toko Obat')),
+        appBar: AppBar(title: const Text('Pharmacy')),
         drawer: Drawer(
           child: ListView(
             children: [
