@@ -1,3 +1,5 @@
+import 'package:belajarflutter/menu/history.dart';
+import 'package:belajarflutter/menu/home.dart';
 import 'package:belajarflutter/menu/profile.dart';
 import 'package:belajarflutter/pages/confirm_registration_page.dart';
 import 'package:belajarflutter/pages/detail_product_page.dart';
@@ -15,6 +17,10 @@ class Routes {
   static const String detailProduct = "/detailProduct";
   static const String mainmenupage = "/mainmenupage";
   static const String profile = "/profile";
+  static const String home = "/home";
+  static const String history = "/history";
+  static const String menudrawerpage = "/menudrawerpage";
+
   // dll
 
   // tampung dalam array yg kita pasang ke main dart
@@ -25,6 +31,9 @@ class Routes {
     GetPage(name: detailProduct, page: () => DetailProductPage()),
     GetPage(name: mainmenupage, page: () => MainMenuPage()),
     GetPage(name: profile, page: () => ProfilePage()),
+    GetPage(name: home, page: () => HomePage()),
+    GetPage(name: history, page: () => HistoryPage()),
+    GetPage(name: menudrawerpage, page: () => MenuDrawer()),
     // dll
   ];
 }
