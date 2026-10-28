@@ -15,7 +15,6 @@ class Routes {
   static const String detailProduct = "/detailProduct";
   static const String mainmenupage = "/mainmenupage";
   static const String profile = "/profile";
-  static const String menudrawer = "/menudrawer";
   // dll
 
   // tampung dalam array yg kita pasang ke main dart
@@ -26,7 +25,6 @@ class Routes {
     GetPage(name: detailProduct, page: () => DetailProductPage()),
     GetPage(name: mainmenupage, page: () => MainMenuPage()),
     GetPage(name: profile, page: () => ProfilePage()),
-    GetPage(name: menudrawer, page: () => MenuDrawerPage()),
     // dll
   ];
 }
