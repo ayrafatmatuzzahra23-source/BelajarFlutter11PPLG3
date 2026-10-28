@@ -27,7 +27,6 @@ class LoginCloneFix extends StatelessWidget {
           child: Column(
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
-
               Container(
                 margin: EdgeInsets.all(10),
                 child: MyTextField2(
