@@ -28,7 +28,6 @@ class LoginCloneFix extends StatelessWidget {
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
 
-              // Email
               Container(
                 margin: EdgeInsets.all(10),
                 child: MyTextField2(
@@ -37,7 +36,6 @@ class LoginCloneFix extends StatelessWidget {
                 ),
               ),
 
-              // Sandi
               Container(
                 margin: EdgeInsets.all(10),
                 child: MyTextField2(
@@ -47,7 +45,6 @@ class LoginCloneFix extends StatelessWidget {
                 ),
               ),
 
-              // Tombol Masuk
               Container(
                 margin: EdgeInsets.all(10),
                 child: MyButton(
@@ -57,7 +54,6 @@ class LoginCloneFix extends StatelessWidget {
                 ),
               ),
 
-              // ATAU
               Container(
                 margin: EdgeInsets.all(10),
                 child: Text(
@@ -70,7 +66,6 @@ class LoginCloneFix extends StatelessWidget {
                 ),
               ),
 
-              // Gunakan Kode Masuk
               Container(
                 margin: EdgeInsets.all(10),
                 child: MyButton(
@@ -80,7 +75,6 @@ class LoginCloneFix extends StatelessWidget {
                 ),
               ),
 
-              // Lupa Sandi
               Container(
                 margin: EdgeInsets.all(10),
                 child: Text(
@@ -93,7 +87,6 @@ class LoginCloneFix extends StatelessWidget {
                 ),
               ),
 
-              // Daftar
               Container(
                 margin: EdgeInsets.all(10),
                 child: Text(

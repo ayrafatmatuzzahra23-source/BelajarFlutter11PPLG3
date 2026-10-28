@@ -1,12 +1,11 @@
-import 'package:belajarflutter/controller/detail_produk_controlller.dart';
+import 'package:belajarflutter/controller/detail_product_controller.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:get/get_core/src/get_main.dart';
 
 class DetailProductPage extends StatelessWidget {
   DetailProductPage({super.key});
 
-  final controller = Get.put(DetailProdukController());
+  final controller = Get.put(DetailProductController());
   
   @override
   Widget build(BuildContext context) {
@@ -17,7 +16,8 @@ class DetailProductPage extends StatelessWidget {
         backgroundColor: Colors.teal,
         foregroundColor: Colors.white,
       ),
-      body: SingleChildScrollView(
+      body: Padding(
+        padding: EdgeInsets.all(16),
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
@@ -26,6 +26,19 @@ class DetailProductPage extends StatelessWidget {
               width: double.infinity,
               height: 250,
               fit: BoxFit.contain,
+              errorBuilder: (context, error, stackTrace) {
+                return const SizedBox(
+                  width: double.infinity,
+                  height: 250,
+                  child: Center(
+                  child: Icon(
+                    Icons.medication,
+                    color: Colors.grey,
+                    size: 80,
+                    ),
+                  ),
+                );
+              },
             ),
             Padding(
               padding: EdgeInsets.all(16),

@@ -1,6 +1,6 @@
 import 'package:get/get.dart';
 
-class DetailProdukController extends GetxController {
+class DetailProductController extends GetxController {
   late String namaProduk;
   late String harga;
   late String deskripsi;

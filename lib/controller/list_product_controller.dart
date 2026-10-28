@@ -76,5 +76,14 @@ class ListProductController extends GetxController {
       namaToko: "Apotek K24",
       review: "Lumayan enak badan setelah minum, rasanya agak pahit.",
     ),
-  ];
+  ].obs;
+  late List<ProductModel> dataAwal;      
+  @override
+  void onInit() {                        
+    super.onInit();
+    dataAwal = List.from(listProduct);
+  }
+  void resetProduct() {                  
+    listProduct.assignAll(dataAwal);
+  }
 }
